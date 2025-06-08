@@ -1,0 +1,170 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<BaseLayout
+  title="À propos | Rayan Kabra"
+  description="About Jeanine White Lorem Ipsum"
+>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="À propos"
+        tagline="Merci de vôtre intérêt ! Lisez ci-dessous pour en savoir plus sur moi-même et mon parcours."
+      >
+        <img
+          width="1553"
+          height="873"
+          src="/assets/developer.png"
+          alt="Développeur"
+        />
+      </Hero>
+
+      <!-- // PRESENTATION -->
+      <section>
+        <h2 class="section-title">Présentation</h2>
+        <div class="content">
+          <p>
+            Passionné par les nouvelles technologies, je suis titulaire d'un
+            Master en droit avec une spécialisation en droit de l'espace et des
+            télécommunications.
+          </p>
+          <br />
+          <p>
+            Au cours de mon parcours professionnel, j'ai décidé de me réorienter
+            vers le développement Web, animé par ma passion pour les avancées
+            technologiques. J'ai acquis de solides bases en conception de sites
+            et développement d'applications Web.
+          </p>
+          <br />
+          <p>
+            Mes compétences techniques, combinée à ma formation juridique, me
+            permet d'apporter une perspective unique aux projets de
+            développement. Je suis déterminé à relever de nouveaux défis, à
+            explorer les dernières tendances technologiques et à contribuer de
+            manière significative à des projets innovants. Mon parcours atypique
+            reflète ma capacité d'adaptation et mon engagement à apprentissage
+            continu.
+          </p>
+        </div>
+      </section>
+
+      <!-- // EXPERIENCES PROFESSIONNELLES -->
+      <section>
+        <h2 class="section-title">Expériences professionnelles</h2>
+        <div class="content">
+          <p>
+            mai 2024 / octobre 2025 - Développeur Full Stack (C#) en alternance,
+            Krialys (Suresnes).
+          </p>
+          <p>
+            2020 / 2022 - Responsable de l'administration générale (affaires
+            juridiques), Mairie de Châtillon à Châtillon.
+          </p>
+          <p>
+            2018 / 2020 - Juriste en contrôle des exportations, Airbus Defense &
+            Space à Toulouse.
+          </p>
+          <p>
+            2017 / 2018 - Contrôleur des exportations en alternance, Arquus (ex
+            Renault Trucks Defense) à Guyancourt.
+          </p>
+        </div>
+      </section>
+
+      <!-- // FORMATION -->
+      <section>
+        <h2 class="section-title">Formation</h2>
+        <div class="content">
+          <p>
+            2024 - Formation de Développeur Full Stack Web et Mobile (React,
+            TypeScript, MongoDB, SQL etc.).
+          </p>
+          <p>
+            2023 - Formation Concepteur et Développeur d'Applications (CDA).
+          </p>
+          <p>
+            2018 - Master 2 en Droit des Activités spatiales et des
+            Télécommunications.
+          </p>
+          <p>2017 - Master 1 en Droit public.</p>
+          <p>2013 / 2016 - Licence en Droit public.</p>
+        </div>
+      </section>
+
+      <!-- // COMPETENCES -->
+      <section>
+        <h2 class="section-title">Compétences</h2>
+        <div class="content">
+          <p>
+            Curieux, autonome, sociable, rigoureux, esprit d'entreprise et
+            d'équipe.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <ContactCTA />
+  </div>
+</BaseLayout>
+
+<style>
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
+
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
+
+  .content {
+    grid-column: 2 / 4;
+  }
+
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
+
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
+
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
+
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
+
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
+</style>

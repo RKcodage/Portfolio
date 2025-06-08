@@ -1,0 +1,38 @@
+---
+export interface Props {
+  icon: string;
+  title: string;
+  description: string;
+  iconWidth?: string;
+  iconHeight?: string;
+}
+
+const {
+  icon,
+  title,
+  description,
+  iconWidth = "50px",
+  iconHeight = "50px",
+} = Astro.props;
+---
+
+<div class="box stack gap-2 lg:gap-4">
+  <img
+    src={icon}
+    alt={title}
+    style={`width: ${iconWidth}; height: ${iconHeight};`}
+  />
+  <h2>{title}</h2>
+  <p>{description}</p>
+</div>
+
+<style>
+  .box {
+    border: 1px solid var(--gray-800);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    background-color: var(--gray-999_40);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 20px;
+  }
+</style>
