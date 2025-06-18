@@ -1,6 +1,6 @@
 ---
 title: Ma Gestion Immo
-publishDate: 2022-03-04 00:00:00
+publishDate: 2025-03-04 00:00:00
 img: /assets/ma-gestion-immo.png
 img_alt: Ma Gestion Immo website
 url: https://ma-gestion-immo.netlify.app/
@@ -14,6 +14,7 @@ tags:
   - Zustand
   - TanStack Query
   - Cloudinary
+  - WebSocket
 ---
 
 J'ai réalisé <a href="https://ma-gestion-immo.netlify.app/">"Ma Gestion Immo"</a> comme projet de fin d'études dans le cadre de ma formation avec le Reacteur. Il s'agit d'une application web de gestion locative afin de faciliter notamment les démarches et la communication entre propriétaires et locataires.

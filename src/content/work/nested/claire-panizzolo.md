@@ -1,6 +1,6 @@
 ---
 title: Claire Panizzolo - Photographe
-publishDate: 2024-03-04 00:00:00
+publishDate: 2021-03-04 00:00:00
 url: https://www.clairepanizzolo.com/
 img: /assets/Claire-Panizzolo.png
 img_alt: Claire Panizzolo website

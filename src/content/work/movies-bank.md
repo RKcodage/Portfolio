@@ -1,6 +1,6 @@
 ---
 title: Movies Bank
-publishDate: 2020-03-02 00:00:00
+publishDate: 2022-03-02 00:00:00
 img: /assets/mb.png
 img_alt: Homepage Movies bank
 url: https://your-movies-bank-app.netlify.app/
@@ -10,6 +10,9 @@ tags:
   - JavaScript
   - React
   - Sass
+  - MongoDB
+  - Node.js
+  - Express.js
   - TMDb API
 ---
 
