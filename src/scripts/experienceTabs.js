@@ -6,11 +6,11 @@ export function initExperienceTabs() {
     button.addEventListener("click", () => {
       const index = button.getAttribute("data-index");
 
-      // Quitar clase 'active' de todos
+      // Remove the 'active' class from every tab
       tabButtons.forEach((btn) => btn.classList.remove("active"));
       tabContents.forEach((content) => content.classList.remove("active"));
 
-      // Activar el seleccionado
+      // Activate the selected tab
       button.classList.add("active");
       const content = document.querySelector(
         `.tabcontent[data-index='${index}']`

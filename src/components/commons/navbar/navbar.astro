@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa6";
 
 const links = [
   { name: "Accueil", href: "/" },
-  { name: "Projets", href: "/proyectos" },
+  { name: "Projets", href: "/projects" },
   { name: "À propos", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
@@ -45,7 +45,7 @@ const links = [
         }
 
         <li class="flex items-center gap-3">
-          <NotificationBell client:visible />
+          <!-- <NotificationBell client:visible /> -->
 
           <a
             href="https://www.linkedin.com/in/rayan-kabra-26103b135/"
@@ -59,7 +59,7 @@ const links = [
           </a>
 
           <a
-            href="https://github.com/Lautaro-R-collins"
+            href="https://github.com/RKcodage"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -86,7 +86,7 @@ const links = [
     class="fixed inset-0 bg-black/60 hidden peer-checked:block cursor-pointer z-40 md:hidden"
   ></label>
 
-  <!-- Sidebar móvil -->
+  <!-- Mobile sidebar -->
   <div
     class="fixed top-0 right-0 h-full w-64 bg-gray-900 shadow-lg transform translate-x-full transition-transform duration-300 peer-checked:translate-x-0 z-50 md:translate-x-full md:hidden"
   >

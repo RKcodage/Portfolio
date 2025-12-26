@@ -1,20 +1,19 @@
 import moviesBank from "../assets/img-projects/mb.png";
 import morpionGame from "../assets/img-projects/morpion-game.png";
 import brainwave from "../assets/img-projects/brainwave.png";
-import legalWeb from "../assets/img-projects/legalweb.webp";
-import mediCare from "../assets/img-projects/medicare.jpg";
-import astroFit from "../assets/img-projects/Astrofit.jpg";
-import Verbenas from "../assets/img-projects/challenge-newyze.png";
+import clairePanizzolo from "../assets/img-projects/Claire-Panizzolo.png";
+import reggenerate from "../assets/img-projects/reggenerate.png";
 import maGestionImmo from "../assets/img-projects/ma-gestion-immo.png";
 
-export const proyectos = [
+export const projects = [
   {
-    titulo: "Ma Gestion Immo",
-    descripcion:
-      "E-commerce full stack desarrollado con React, Node.js y MongoDB. Incluye autenticación, carrito de compras, búsqueda, categorías, reseñas, etc.",
-    imagen: maGestionImmo.src,
-    tecnologias: [
+    title: "Ma Gestion Immo",
+    description:
+      "Application full-stack de gestion immobilière (SaaS) développée avec React (Vite, Tailwind, Zustand) côté front et Node.js / Express / MongoDB côté back. Gestion des utilisateurs, rôles, baux, documents, invitations par lien magique et messagerie temps réel via Socket.IO.",
+    image: maGestionImmo.src,
+    technologies: [
       "React",
+      "Zustand",
       "Tailwind",
       "Express",
       "MongoDB",
@@ -24,33 +23,50 @@ export const proyectos = [
       "Nodemailer",
     ],
     demo: "https://ma-gestion-immo.netlify.app/",
-    codigo: "https://github.com/RKcodage/Ma-Gestion-Immo",
-    categoria: "fullstack",
+    code: "https://github.com/RKcodage/Ma-Gestion-Immo",
+    category: "fullstack",
   },
   {
-    titulo: "Movies Bank",
-    descripcion:
-      "App full-stack con funciones CRUD, creacion de tableros y listas, autentificacion de usuarios, desarrollada con MERN stack.",
-    imagen: moviesBank.src,
-    tecnologias: [
+    title: "Reggenerate",
+    description:
+      "Site web réalisé pour la start-up Circul'Egg, développé avec Next.js et TypeScript. La gestion dynamique du contenu est assurée par liaison avec l'Api de Airtable.",
+    image: reggenerate.src,
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Airtable API",
+      "GitHub Actions",
+    ],
+    demo: "https://reggenerate.circulegg.fr/",
+    code: "https://github.com/Lautaro-R-collins/Front-react-todo",
+    category: "frontend",
+  },
+  {
+    title: "Movies Bank",
+    description:
+      "Application full-stack dédiée aux cinéphiles, permettant de rechercher des films en temps réel et de sauvegarder ses favoris. Développée avec JavaScript et React, elle s’appuie sur l’API TMDb pour afficher des informations cinématographiques à jour. Les opérations CRUD sont exposées par une API REST développée avec Node.js et Express, tandis que la persistance des données est assurée par MongoDB à l’aide de Mongoose.",
+    image: moviesBank.src,
+    technologies: [
       "React",
       "JavaScript",
       "Sass",
       "MongoDB",
       "Node.js",
       "Express",
+      "Auth",
       "TMDB Api",
     ],
-    demo: "https://front-react-todo.onrender.com",
-    codigo: "https://github.com/Lautaro-R-collins/Front-react-todo",
-    categoria: "fullstack",
+    demo: "https://your-movies-bank-app.netlify.app/",
+    code: "https://github.com/Lautaro-R-collins/Front-react-todo",
+    category: "fullstack",
   },
   {
-    titulo: "Morpion Game",
-    descripcion:
-      "E-commerce funcional de ropa y accesorios, con carrito de compras categorias y pasarela de pago desarrollado en React.",
-    imagen: morpionGame.src,
-    tecnologias: [
+    title: "Morpion Game",
+    description:
+      "Application de jeu de morpion en ligne permettant à deux joueurs de s’affronter en temps réel. L’application est construite avec React, TypeScript et Vite côté front, et Node.js / Express côté back, avec une communication temps réel assurée par Socket.IO.",
+    image: morpionGame.src,
+    technologies: [
       "React",
       "TypeScript",
       "Vite.js",
@@ -58,121 +74,120 @@ export const proyectos = [
       "Express",
       "Web Socket",
     ],
-    demo: "https://proyecto-final-rodriguez-sable.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ProyectoFinal-Rodriguez.git",
-    categoria: "fullstack",
+    demo: "https://morpion-game-online.netlify.app/",
+    code: "https://github.com/RKcodage/Morpion-front",
+    category: "fullstack",
   },
   {
-    titulo: "Brainwave",
-    descripcion:
-      "Ecommerce Full-Stack para ver, comprar y vender tus productos, con login para usuarios y vendedores.",
-    imagen: brainwave.src,
-    tecnologias: ["JavaScript", "React", "Tailwind"],
-    demo: "https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/",
-    codigo: "https://github.com/No-Country-simulation/c21-05-ft-node-react",
-    categoria: "frontend",
+    title: "Brainwave",
+    description:
+      "Réplique d'un site web professionnel sur le thème de l'IA développée avec TypeScript et Tailwind.",
+    image: brainwave.src,
+    technologies: ["JavaScript", "React", "Tailwind"],
+    demo: "https://brainwave-ai-corp.netlify.app/",
+    code: "https://github.com/RKcodage/BrainAI",
+    category: "frontend",
   },
   {
-    titulo: "Traker Ingresos-Gastos",
-    descripcion:
-      "App que realiza operaciones CRUD para agregar, ver, editar y eliminar ingresos/gastos.",
-    imagen:
-      "https://i.pinimg.com/736x/a4/85/c4/a485c4da3e78f4f518ddbcdb6637bacf.jpg",
-    tecnologias: ["React", "contextAPI"],
+    title: "Claire Panizzolo",
+    description:
+      "Site web réalisé pour Claire Panizzolo, photographe professionnelle.",
+    image: clairePanizzolo.src,
+    technologies: ["React", "JavaScript"],
     demo: "https://traker-gastos-ingresos.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos",
-    categoria: "frontend",
+    code: "https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos",
+    category: "frontend",
   },
-  {
-    titulo: "App-clima",
-    descripcion:
-      "Aplicación hecha con React que utiliza una API para mostrar el clima en tiempo real.",
-    imagen:
+  /*  {
+    title: "App-clima",
+    description:
+      "Application built with React that uses an API to show real-time weather.",
+    image:
       "https://i.pinimg.com/736x/10/6e/cd/106ecd1bfe5ed1c3defb83ea0f87a334.jpg",
-    tecnologias: ["React", "contextAPI", "tailwind"],
+    technologies: ["React", "contextAPI", "tailwind"],
     demo: "https://app-clima-om19.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/app-clima",
-    categoria: "frontend",
-  },
-  {
-    titulo: "Legal Staff",
-    descripcion:
-      "Web desarrollada con Astro y Tailwind, embudo de marketing para estudios jurídicos.",
-    imagen: legalWeb.src,
-    tecnologias: ["Astro", "tailwind", "JavaScript"],
+    code: "https://github.com/Lautaro-R-collins/app-clima",
+    category: "frontend",
+  }, */
+  /*  {
+    title: "Legal Staff",
+    description:
+      "Website built with Astro and Tailwind, a marketing funnel for law firms.",
+    image: legalWeb.src,
+    technologies: ["Astro", "tailwind", "JavaScript"],
     demo: "https://legal-staff.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/legal-staff",
-    categoria: "frontend",
+    code: "https://github.com/Lautaro-R-collins/legal-staff",
+    category: "frontend",
   },
   {
-    titulo: "Medicare",
-    descripcion:
-      "Web desarrollada con Astro y Tailwind, embudo de marketing para Obras Sociales.",
-    imagen: mediCare.src,
-    tecnologias: ["Astro", "tailwind", "JavaScript"],
+    title: "Medicare",
+    description:
+      "Website built with Astro and Tailwind, a marketing funnel for social health providers.",
+    image: mediCare.src,
+    technologies: ["Astro", "tailwind", "JavaScript"],
     demo: "https://obra-social-landing.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/obra-social-landing.git",
-    categoria: "frontend",
+    code: "https://github.com/Lautaro-R-collins/obra-social-landing.git",
+    category: "frontend",
   },
   {
-    titulo: "AstroFit",
-    descripcion:
-      "Web desarrollada con Astro y Tailwind, embudo de marketing para asesorias fitness.",
-    imagen: astroFit.src,
-    tecnologias: ["Astro", "tailwind", "JavaScript"],
+    title: "AstroFit",
+    description:
+      "Website built with Astro and Tailwind, a marketing funnel for fitness coaching.",
+    image: astroFit.src,
+    technologies: ["Astro", "tailwind", "JavaScript"],
     demo: "https://gym-page-sandy.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/GymPage.git",
-    categoria: "frontend",
+    code: "https://github.com/Lautaro-R-collins/GymPage.git",
+    category: "frontend",
   },
   {
-    titulo: "API REST para Ecommerce",
-    descripcion:
-      "API RESTful construida con Node.js, Express y MongoDB para gestionar tareas con operaciones CRUD, Registro de usuarios y login con JWT.",
-    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
-    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
+    title: "API REST for Ecommerce",
+    description:
+      "RESTful API built with Node.js, Express, and MongoDB to manage tasks with CRUD operations, user registration, and JWT login.",
+    image: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
+    technologies: ["Express", "Node.js", "MongoDB", "Mongoose"],
     demo: "https://react-e-commerce-three-phi.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ApiRest-Ecommerce.git",
-    categoria: "backend",
+    code: "https://github.com/Lautaro-R-collins/ApiRest-Ecommerce.git",
+    category: "backend",
   },
   {
-    titulo: "100 days coding in Js",
-    descripcion: "100 proyectos, realizados con HTML, CSS y JavaScript.",
-    imagen:
+    title: "100 days coding in Js",
+    description: "100 projects built with HTML, CSS, and JavaScript.",
+    image:
       "https://i.pinimg.com/736x/3b/4f/4e/3b4f4e170fcb1795b88f4941f49df0a2.jpg",
-    tecnologias: ["Next.js", "Tailwind", "GraphQL"],
+    technologies: ["Next.js", "Tailwind", "GraphQL"],
     demo: "https://one00-proyects-web.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/100-days-of-coding-in-JS",
-    categoria: "frontend",
+    code: "https://github.com/Lautaro-R-collins/100-days-of-coding-in-JS",
+    category: "frontend",
   },
   {
-    titulo: "PlaniFy",
-    descripcion:
-      "App Web para organizar tus proyectos, hecha con React + Vite, TypeScript y Tailwind para los estilos.",
-    imagen:
+    title: "PlaniFy",
+    description:
+      "Web app to organize your projects, built with React + Vite, TypeScript, and Tailwind for styling.",
+    image:
       "https://i.pinimg.com/736x/8f/f0/bb/8ff0bbd0e5844ed254bede44522c8338.jpg",
-    tecnologias: ["React", "Vite", "TypeScript", "Tailwind"],
+    technologies: ["React", "Vite", "TypeScript", "Tailwind"],
     demo: "https://planify-1tu6.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/PlaniFy-organization-app",
-    categoria: "frontend",
+    code: "https://github.com/Lautaro-R-collins/PlaniFy-organization-app",
+    category: "frontend",
   },
   {
-    titulo: "Verbenas Paisajes",
-    descripcion:
-      "Pagina estatica desarrollada con Astro y tailwind como reto para una startup.",
-    imagen: Verbenas.src,
-    tecnologias: ["Astro", "Tailwind", "JavaScript"],
+    title: "Verbenas Paisajes",
+    description:
+      "Static page built with Astro and Tailwind as a challenge for a startup.",
+    image: Verbenas.src,
+    technologies: ["Astro", "Tailwind", "JavaScript"],
     demo: "https://challenge-neowyze.onrender.com/",
-    codigo: "https://github.com/Lautaro-R-collins/challenge-Neowyze.git",
-    categoria: "frontend",
+    code: "https://github.com/Lautaro-R-collins/challenge-Neowyze.git",
+    category: "frontend",
   },
   {
-    titulo: "API REST",
-    descripcion:
-      "API RESTful construida con Express y MongoDB para gestionar tareas con operaciones CRUD, Registro de usuarios y login con JWT.",
-    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
-    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
+    title: "API REST",
+    description:
+      "RESTful API built with Express and MongoDB to manage tasks with CRUD operations, user registration, and JWT login.",
+    image: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
+    technologies: ["Express", "Node.js", "MongoDB", "Mongoose"],
     demo: "https://back-express-todo.onrender.com",
-    codigo: "https://github.com/Lautaro-R-collins/Back-express-todo.git",
-    categoria: "backend",
-  },
+    code: "https://github.com/Lautaro-R-collins/Back-express-todo.git",
+    category: "backend",
+  }, */
 ];

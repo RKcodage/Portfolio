@@ -16,7 +16,7 @@
   color: #7836cf;
 }
 
-/* reglas hover (usar estas clases directamente) */
+/* hover rules (use these classes directly) */
 .hover-text-secondary:hover {
   color: #7836cf;
 }
@@ -38,7 +38,7 @@
   text-shadow: 2px 2px 0 #0debd8;
 }
 
-/* estilos del home */
+/* home styles */
 
 @keyframes gradientMove {
   0% {

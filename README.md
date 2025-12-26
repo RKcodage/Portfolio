@@ -1,29 +1,27 @@
-# 🌌 Personal Portfolio – Lautaro 
+# 🌌 Portfolio personnel – Rayan Kabra
 
 ---
 
-## 🚀 Características principales
+## 🚀 Caractéristiques principales
 
-- ⚡️ Construido con **Astro** y **React** 
-- 🎨 **Diseño responsive**
+- ⚡️ Developpé avec **Astro** et **React**
+- 🎨 **Interface responsive**
 - 🧠 **Filtrado dinámico de proyectos**
-- 💬 Secciones personalizables: *Sobre mí*, *Proyectos*, *Experiencia*, *Contacto*  
+- 💬 Secciones personalizables: _Sobre mí_, _Proyectos_, _Experiencia_, _Contacto_
 
 ---
 
 ## 🧩 Tecnologías utilizadas
 
-- [Astro](https://astro.build/)  
-- [TailwindCSS](https://tailwindcss.com/)  
-- [TypeScript / JavaScript]  
-- [React (en componentes selectivos)]  
-- [Vite](https://vitejs.dev/)  
+- [Astro](https://astro.build/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [TypeScript / JavaScript]
+- [React (en componentes selectivos)]
+- [Vite](https://vitejs.dev/)
 
 ---
 
 ## 📂 Estructura del proyecto
-
-
 
 ## 🚀 Project Structure
 
@@ -59,6 +57,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
 ---
-![Portfolio](https://github.com/user-attachments/assets/8c01d06f-2d36-46c1-a3ff-a6f7bf73ab67)
-
-

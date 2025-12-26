@@ -20,14 +20,14 @@ const links = [
     <div class="mb-2 mt-11">
       <div class="mb-2 mt-11">
         <div class="relative flex items-center justify-center">
-          <!-- Foto con borde -->
+          <!-- Photo with border -->
           <img
             src={MyPhoto.src}
             alt="Photo de Rayan"
             class="border-primary h-32 w-32 rounded-full shadow-lg object-cover"
           />
 
-          <!-- Texto circular alrededor de la foto -->
+          <!-- Circular text around the photo -->
           <svg
             viewBox="0 0 200 200"
             class="animate-spin-slow absolute h-48 w-48"
@@ -48,7 +48,7 @@ const links = [
 
     <CopyMail client:visible />
 
-    <!-- Lista de Links -->
+    <!-- Links list -->
     <div class="w-full max-w-xl space-y-4">
       {
         links.map((link) => (

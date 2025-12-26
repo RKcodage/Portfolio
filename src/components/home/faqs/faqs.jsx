@@ -38,19 +38,19 @@ const SkillsList = () => {
 
   const skills = {
     "Quelles technologies j'utilise actuellement ?": [
-      "Actualmente trabajo con tecnologías como React, Next.js, Vue.js, Astro, tailwind, Boostrap y demas librerias y frameworks para el frontend y en el backend trabajo con Node.js, Express, MongoDB, Firebase, entre otras.",
+      "Je travaille actuellement et majoritairement avec des technologies comme React, Next.js, Tailwind, et un ensemble de librairies et de frameworks pour le frontend. Du côté du backend, j'utilise principalement Node.js, Express, MongoDB, PostgreSql ou encore C#. Le choix des technologies se fait en fonction des besoins du projet.",
     ],
     "Mes Expériences": [
-      "Tengo experiencia trabajando en startups y consultoras tecnológicas, desarrollando y maquetando sitios web a partir de diseños en Figma. Para ello, utilizo tecnologías frontend como Astro y React, junto con Tailwind CSS y otras librerías y frameworks para el estilizado y la optimización de interfaces.",
+      "J'ai plus de 3 ans d'expérience dans le développement web et de logiciels, que ce soit pour la réalisation de projets personnels, en freelance ou en entreprise. Ce parcours m’a permis d’acquérir de solides compétences organisationnelles et en programmation, aussi bien sur la conception d’interfaces utilisateur que sur le développement de serveurs et de bases de données. J’accorde une importance particulière au respect de la logique métier et aux attentes fonctionnelles propres à chaque projet.",
     ],
     "Ma Formation": [
-      "Estudié una tecnicatura en automatización de grado universitaria en el ITU, lo que me brindó las bases en programación. Posteriormente, decidí enfocarme en el desarrollo web y de software estudiando en el ITU. Ademas, realicé diversos cursos, diplomados y capacitaciones en grandes universidades Argentinas, como la UTN y el Instituto Tecnológico Universitario, tambien, complemento mi formación con el aprendizaje autodidacta, lo que me permite mantenerme actualizado con los avances tecnológicos en el desarrollo de software.",
+      "Ma formation en développement a débuté de manière autodidacte, portée par une forte curiosité et un intérêt constant pour les nouvelles technologies. J’ai ensuite structuré ce parcours par une formation menant au titre professionnel de Concepteur Développeur d’Applications, complétée par la réalisation de projets concrets. Cette démarche progressive m’a permis de développer une autonomie technique, une capacité d’apprentissage continue et une compréhension globale des enjeux liés à la conception et au développement d’applications.",
     ],
     "Comment je travaille en équipe ?": [
-      "Tengo experiencia trabajando en equipos multidisciplinarios, donde me he encargado del desarrollo frontend de aplicaciones web. Para ello, utilizo metodologías ágiles como Scrum y Kanban, además de herramientas de control de versiones como Git y GitHub para gestionar el flujo de trabajo. También cuento con experiencia en el uso de herramientas de gestión de proyectos como Trello y Jira, facilitando la organización y colaboración dentro del equipo.",
+      "J’ai acquis une expérience du travail en équipes multidisciplinaires en tant que développeur full stack. J’évolue dans des environnements utilisant des méthodologies agiles telles que Scrum et Kanban, et j’emploie des outils de gestion de versions comme Git et GitHub pour organiser le travail collaboratif, notamment via des processus de merge requests et de relecture de code. J’ai également utilisé des outils de gestion de projet tels que Trello et Jira, facilitant le suivi des tâches, la communication et la coordination au sein des équipes.",
     ],
     "Méthodologies agiles": [
-      "He trabajado con metodologías ágiles como Scrum y Kanban. En Scrum, participé en sprints de dos semanas, donde al finalizar cada sprint realizaba un pull request (PR) con mi trabajo, el cual pasaba por una fase de revisión y corrección antes de ser fusionado y enviado a producción. También he trabajado con Kanban, utilizando tableros para gestionar tareas y moverlas según su estado de progreso. Además, participé en reuniones diarias (dailies) para planificar y reportar avances del proyecto, asegurando una comunicación eficiente dentro del equipo.",
+      "J'ai travaillé avec des méthodologies agiles telles que Scrum et Kanban. En Scrum, j'ai participé à des sprints de deux semaines ou plus. À la fin de chaque sprint, je soumettais une pull request (PR) contenant mon travail, qui était ensuite examinée et corrigée avant d'être fusionnée et déployée en production. J'ai également travaillé avec Kanban, en utilisant des tableaux pour gérer les tâches et les faire progresser. De plus, j'ai participé aux réunions quotidiennes pour planifier et rendre compte de l'avancement du projet, garantissant ainsi une communication efficace au sein de l'équipe.",
     ],
   };
 
