@@ -39,7 +39,7 @@ export const projects = [
       "GitHub Actions",
     ],
     demo: "https://reggenerate.circulegg.fr/",
-    code: "https://github.com/Lautaro-R-collins/Front-react-todo",
+    code: "https://github.com/yacinekabegg/reggenerate-next",
     category: "frontend",
   },
   {
@@ -58,7 +58,7 @@ export const projects = [
       "TMDB Api",
     ],
     demo: "https://your-movies-bank-app.netlify.app/",
-    code: "https://github.com/Lautaro-R-collins/Front-react-todo",
+    code: "https://github.com/RKcodage/Movies-bank-front",
     category: "fullstack",
   },
   {
@@ -94,8 +94,8 @@ export const projects = [
       "Site web réalisé pour Claire Panizzolo, photographe professionnelle.",
     image: clairePanizzolo.src,
     technologies: ["React", "JavaScript"],
-    demo: "https://traker-gastos-ingresos.onrender.com/",
-    code: "https://github.com/Lautaro-R-collins/Traker-Gastos-Ingresos",
+    demo: "https://clairepanizzolo.netlify.app/",
+    code: "",
     category: "frontend",
   },
   /*  {
