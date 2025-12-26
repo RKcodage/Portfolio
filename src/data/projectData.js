@@ -1,7 +1,7 @@
 import moviesBank from "../assets/img-projects/mb.png";
 import morpionGame from "../assets/img-projects/morpion-game.png";
 import brainwave from "../assets/img-projects/brainwave.png";
-import clairePanizzolo from "../assets/img-projects/Claire-Panizzolo.png";
+import clairePanizzolo from "../assets/img-projects/claire-panizzolo.png";
 import reggenerate from "../assets/img-projects/reggenerate.png";
 import maGestionImmo from "../assets/img-projects/ma-gestion-immo.png";
 
