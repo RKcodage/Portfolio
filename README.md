@@ -1,43 +1,41 @@
-# 🌌 Portfolio personnel – Rayan Kabra
+# 🌌 Personal portfolio – Rayan Kabra
 
 ---
 
-## 🚀 Caractéristiques principales
+## 🚀 Main features
 
-- ⚡️ Developpé avec **Astro** et **React**
+- ⚡️ Developed with **Astro** and **React**
 - 🎨 **Interface responsive**
-- 🧠 **Filtrado dinámico de proyectos**
-- 💬 Secciones personalizables: _Sobre mí_, _Proyectos_, _Experiencia_, _Contacto_
+- 🧠 **Dynamic project filtering**
+- 💬 Customizable sections: _About me_, _Projects_, _Experience_, _Contact_
 
 ---
 
-## 🧩 Tecnologías utilizadas
+## 🧩 Technologies used
 
 - [Astro](https://astro.build/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [TypeScript / JavaScript]
-- [React (en componentes selectivos)]
+- [React (in selective components)]
 - [Vite](https://vitejs.dev/)
 
 ---
 
-## 📂 Estructura del proyecto
-
-## 🚀 Project Structure
+## 📂 Project structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
 ```text
 /
 ├── public/
-│ └── images/ # Recursos estáticos
+│ └── images/ # Static resources
 ├── src/
-│ ├── components/ # Componentes reutilizables
+│ ├── components/ # Reusable components
 │ ├── layouts/ # Layout base
-│ ├── pages/ # Páginas principales (index, proyectos, etc.)
-│ ├── scripts/ # JS para interactividad (filtro, animaciones)
-│ ├── styles/ # CSS global o módulos
-│ └── data/ # Datos (proyectos, experiencia)
+│ ├── pages/ # Main pages (index, projects, etc.)
+│ ├── scripts/ # JavaScript for interactivity (filter, animations)
+│ ├── styles/ # CSS global modules
+│ └── data/ # Data (projects, experience)
 └── astro.config.mjs
 ```
 
