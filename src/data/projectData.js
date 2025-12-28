@@ -95,7 +95,7 @@ export const projects = [
     description:
       "Site web réalisé pour Claire Panizzolo, photographe professionnelle.",
     image: clairePanizzolo.src,
-    technologies: ["React", "JavaScript"],
+    technologies: ["React", "JavaScript", "SCSS"],
     demo: "https://clairepanizzolo.netlify.app/",
     code: "",
     category: "frontend",

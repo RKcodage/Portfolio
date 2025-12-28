@@ -23,6 +23,13 @@ export const projects = [
     code: "https://github.com/RKcodage/Ma-Gestion-Immo",
   },
   {
+    title: "Reggenerate",
+    image: reggenerate.src,
+    technologies: ["React", "TypeScript", "Next.js", "Tailwind", "Airtable"],
+    demo: "https://reggenerate.circulegg.fr/",
+    code: "https://github.com/yacinekabegg/reggenerate-next",
+  },
+  {
     title: "Movies Bank",
     description: "Short description of project 1.",
     image: moviesBank.src,
@@ -31,16 +38,9 @@ export const projects = [
     code: "https://github.com/RKcodage/Movies-bank-front",
   },
   {
-    title: "Reggenerate",
-    image: reggenerate.src,
-    technologies: ["React", "Next.js", "Airtable"],
-    demo: "https://reggenerate.circulegg.fr/",
-    code: "https://github.com/yacinekabegg/reggenerate-next",
-  },
-  {
     title: "Brainwave",
     image: brainwave.src,
-    technologies: ["React", "Tailwind"],
+    technologies: ["React", "JavaScript", "Tailwind"],
     demo: "https://front-react-todo.onrender.com",
     code: "https://github.com/RKcodage/BrainAI",
   },
