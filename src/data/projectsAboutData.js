@@ -17,6 +17,7 @@ export const projects = [
       "Web Socket",
       "Cron",
       "Rate limiters",
+      "Google Auth",
     ],
     demo: "https://ma-gestion-immo.netlify.app/",
     code: "https://github.com/RKcodage/Ma-Gestion-Immo",

@@ -21,6 +21,8 @@ export const projects = [
       "Socket.io",
       "Cron",
       "Nodemailer",
+      "Rate limiters",
+      "Google Auth",
     ],
     demo: "https://ma-gestion-immo.netlify.app/",
     code: "https://github.com/RKcodage/Ma-Gestion-Immo",
