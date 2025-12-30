@@ -45,19 +45,27 @@ const { title, description, image, technologies, demo, code, category, index } =
 
     <p class="flex grow text-gray-400">{description}</p>
 
-    <div class={`mt-auto flex ${code ? "justify-between" : "justify-start"}`}>
-      <a
-        class="group text-primary mt-6 flex items-center justify-start p-0 font-bold text-lg"
-        target="_blank"
-        rel="noopener noreferrer"
-        href={demo}
-      >
-        Démo
-        <HiArrowRight
-          className="ml-1 transition-transform duration-200 group-hover:translate-x-1"
-          size={18}
-        />
-      </a>
+    <div
+      class={`mt-auto flex ${
+        demo && code ? "justify-between" : "justify-start"
+      }`}
+    >
+      {
+        demo && (
+          <a
+            class="group text-primary mt-6 flex items-center justify-start p-0 font-bold text-lg"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={demo}
+          >
+            Démo
+            <HiArrowRight
+              className="ml-1 transition-transform duration-200 group-hover:translate-x-1"
+              size={18}
+            />
+          </a>
+        )
+      }
 
       {
         code && (
