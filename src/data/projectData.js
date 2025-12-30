@@ -3,6 +3,7 @@ import morpionGame from "../assets/img-projects/morpion-game.png";
 import brainwave from "../assets/img-projects/brainwave.png";
 import clairePanizzolo from "../assets/img-projects/claire-panizzolo.png";
 import reggenerate from "../assets/img-projects/reggenerate.png";
+import restApi from "../assets/img-projects/rest-api.png";
 import maGestionImmo from "../assets/img-projects/ma-gestion-immo.png";
 
 export const projects = [
@@ -43,6 +44,23 @@ export const projects = [
     demo: "https://reggenerate.circulegg.fr/",
     code: "https://github.com/yacinekabegg/reggenerate-next",
     category: "frontend",
+  },
+  {
+    title: "CRUD Rest API",
+    description:
+      "CRUD Rest API développée avec TypeScript,Nest.js, Node.js, PostgreSql et Docker.",
+    image: restApi.src,
+    technologies: [
+      "TypeScript",
+      "Node.js",
+      "Nest.js",
+      "PostgreSql",
+      "CRUD",
+      "Docker",
+    ],
+    demo: "",
+    code: "https://github.com/RKcodage/Crud-Rest-Api-Nestjs",
+    category: "backend",
   },
   {
     title: "Movies Bank",
