@@ -3,6 +3,7 @@ import morpionGame from "../assets/img-projects/morpion-game.png";
 import brainwave from "../assets/img-projects/brainwave.png";
 import clairePanizzolo from "../assets/img-projects/claire-panizzolo.png";
 import reggenerate from "../assets/img-projects/reggenerate.png";
+import pulse from "../assets/img-projects/pulse.png";
 import restApi from "../assets/img-projects/rest-api.png";
 import maGestionImmo from "../assets/img-projects/ma-gestion-immo.png";
 
@@ -43,6 +44,16 @@ export const projects = [
     ],
     demo: "https://reggenerate.circulegg.fr/",
     code: "https://github.com/yacinekabegg/reggenerate-next",
+    category: "frontend",
+  },
+  {
+    title: "Pulse",
+    description:
+      "Page d'accueil d'un SaaS réalisée avec Next.js, TypeScript et Tailwind.",
+    image: pulse.src,
+    technologies: ["Next.js", "TypeScript", "Tailwind", "Framer Motion"],
+    demo: "https://pulse-solution.netlify.app/",
+    code: "https://github.com/RKcodage/Pulse---Landing-page",
     category: "frontend",
   },
   {

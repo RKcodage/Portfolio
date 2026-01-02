@@ -1,5 +1,5 @@
 import moviesBank from "../assets/img-projects/mb.png";
-import brainwave from "../assets/img-projects/brainwave.png";
+import pulse from "../assets/img-projects/pulse.png";
 import reggenerate from "../assets/img-projects/reggenerate.png";
 import maGestionImmo from "../assets/img-projects/ma-gestion-immo.png";
 
@@ -38,10 +38,10 @@ export const projects = [
     code: "https://github.com/RKcodage/Movies-bank-front",
   },
   {
-    title: "Brainwave",
-    image: brainwave.src,
-    technologies: ["React", "JavaScript", "Tailwind"],
-    demo: "https://front-react-todo.onrender.com",
-    code: "https://github.com/RKcodage/BrainAI",
+    title: "Pulse",
+    image: pulse.src,
+    technologies: ["Next.js", "TypeScript", "Tailwind", "Framer Motion"],
+    demo: "https://pulse-solution.netlify.app/",
+    code: "https://github.com/RKcodage/Pulse---Landing-page",
   },
 ];
