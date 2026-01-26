@@ -1,4 +1,4 @@
-import moviesBank from "../assets/img-projects/mb.png";
+import upFlow from "../assets/img-projects/demo-upflow.png";
 import pulse from "../assets/img-projects/pulse.png";
 import reggenerate from "../assets/img-projects/reggenerate.png";
 import maGestionImmo from "../assets/img-projects/ma-gestion-immo.png";
@@ -30,12 +30,12 @@ export const projects = [
     code: "https://github.com/yacinekabegg/reggenerate-next",
   },
   {
-    title: "Movies Bank",
+    title: "Upflow",
     description: "Short description of project 1.",
-    image: moviesBank.src,
-    technologies: ["React", "Sass", "MongoDB", "Express", "TMDB Api"],
-    demo: "https://your-movies-bank-app.netlify.app/",
-    code: "https://github.com/RKcodage/Movies-bank-front",
+    image: upFlow.src,
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind"],
+    demo: "https://upflowdemo.netlify.app/",
+    code: "https://github.com/RKcodage/Upflow",
   },
   {
     title: "Pulse",

@@ -6,6 +6,7 @@ import reggenerate from "../assets/img-projects/reggenerate.png";
 import pulse from "../assets/img-projects/pulse.png";
 import restApi from "../assets/img-projects/rest-api.png";
 import maGestionImmo from "../assets/img-projects/ma-gestion-immo.png";
+import upFlow from "../assets/img-projects/demo-upflow.png";
 
 export const projects = [
   {
@@ -28,6 +29,16 @@ export const projects = [
     ],
     demo: "https://ma-gestion-immo.netlify.app/",
     code: "https://github.com/RKcodage/Ma-Gestion-Immo",
+    category: "fullstack",
+  },
+  {
+    title: "Upflow",
+    description:
+      "UpFlow est une plateforme moderne de vote de fonctionnalités développée avec React, Next.js et TypeScript pour collecter, prioriser et gérer efficacement les retours utilisateurs. Cliquez sur démo dans la barre de navigation pour tester l'application sous forme de widget intégré.",
+    image: upFlow.src,
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind"],
+    demo: "https://upflowdemo.netlify.app/",
+    code: "https://github.com/RKcodage/Upflow",
     category: "fullstack",
   },
   {
